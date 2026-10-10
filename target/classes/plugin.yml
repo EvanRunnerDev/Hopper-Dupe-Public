@@ -1,0 +1,32 @@
+main: com.bimsfault.bimsfaultdupes.BimsfaultDupesPlugin
+name: Evans-Dupes
+version: 2.0.0
+api-version: '26'
+authors: [EvanRunner]
+description: Duplicates items when hoppers are broken with a configurable chance and blacklist.
+commands:
+  bimsfault:
+    description: Bimsfault command.
+    usage: /bimsfault <reload|dupeboard|mydupeboard>
+  dupe:
+    description: Shows the dupe message.
+    usage: /dupe
+  dupeboard:
+    description: Shows the dupe leaderboard.
+    usage: /dupeboard
+  mydupeboard:
+    description: Shows your own dupe count.
+    usage: /mydupeboard
+permissions:
+  bimsfault.reload:
+    description: Allows reloading the config.
+    default: op
+  bimsfault.dupe:
+    description: Allows using the /dupe command.
+    default: true
+  bimsfault.dupeboard:
+    description: Allows viewing the dupe leaderboard.
+    default: op
+  bimsfault.dupeboard.self:
+    description: Allows viewing your own dupe count.
+    default: true

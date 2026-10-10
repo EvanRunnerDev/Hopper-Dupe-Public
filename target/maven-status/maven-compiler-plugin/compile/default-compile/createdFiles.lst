@@ -1,0 +1,9 @@
+com\bimsfault\bimsfaultdupes\DupeboardCommand.class
+com\bimsfault\bimsfaultdupes\DupeDataManager.class
+com\bimsfault\bimsfaultdupes\DupeCommand.class
+com\bimsfault\bimsfaultdupes\BimsfaultDupesPlugin.class
+com\bimsfault\bimsfaultdupes\BimsfaultCommand.class
+com\bimsfault\bimsfaultdupes\ConfigManager.class
+com\bimsfault\bimsfaultdupes\DupeLogger.class
+com\bimsfault\bimsfaultdupes\MyDupeboardCommand.class
+com\bimsfault\bimsfaultdupes\HopperBreakListener.class

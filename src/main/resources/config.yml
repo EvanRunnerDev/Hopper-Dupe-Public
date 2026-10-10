@@ -1,0 +1,52 @@
+# items to blacklist from being allowed to dupe
+blacklisted-items:
+  - BEDROCK
+  - COMMAND_BLOCK
+  - BARRIER
+
+# chance out of 100 for the item to be duped
+duplication-chance: 50
+
+# multiple items in hopper be duped or only first slot
+multiple-items-dupe: true
+
+# console logging dupe actions
+console-logging: true
+
+# /dupe command settings
+dupe-command:
+  enabled: true
+  message: "Break hoppers to dupe!"
+
+# Leaderboard settings
+leaderboard:
+  enabled: true
+
+# Dupe logging settings
+logging:
+  enabled: true
+
+messages:
+  prefix: "&7[&bEvans-Dupes&7] &r"
+  reload-success: "&aConfig reloaded."
+  no-permission: "&cYou do not have permission to use this command."
+  player-only: "&cThis command can only be run by a player."
+  command-disabled: "&cThis command is disabled."
+  leaderboard-disabled: "&cThe dupe leaderboard is currently disabled."
+  leaderboard-header: "&6--- Dupe Leaderboard (Times Duped) ---"
+  leaderboard-empty: "&cThe dupe leaderboard is empty."
+  leaderboard-entry: "&e%rank%. %player%: %count% times"
+  mydupeboard-message: "&aYou have successfully duped %count% times."
+  # HopperBreakListener messages
+  item-blacklisted: "Item %item% is blacklisted and will not be duplicated."
+  item-duplicated: "Duplicated %amount%x %item% for %player%."
+  duplication-chance-failed: "Duplication chance failed for %item%."
+  # DupeDataManager messages
+  dupecounts-create-error: "Could not create dupecounts.yml!"
+  dupecounts-save-error: "Could not save dupecounts.yml!"
+  # DupeLogger messages
+  dupelog-create-error: "Could not create dupelog.txt!"
+  dupelog-write-error: "Could not write to dupelog.txt!"
+  # Plugin enable/disable messages
+  plugin-enabled: "Evans-Dupes has been enabled!"
+  plugin-disabled: "Evans-Dupes has been disabled!"
